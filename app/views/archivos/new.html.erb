@@ -1,0 +1,11 @@
+<div style="width:80%;margin:0 auto;">
+	<%= form_for(@archivo) do |f| %>
+		<div class="field">
+			<%= f.text_field :nombre, placeholder: "Ingresa el nombre del archivo", class:"form-control" %>
+		</div>
+		<div class="field">
+			<%= f.submit "Buscar", class:"btn be-red white"%>
+		</div>
+	<% end %>
+
+</div>

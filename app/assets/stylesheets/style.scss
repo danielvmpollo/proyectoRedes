@@ -1,0 +1,38 @@
+html {
+    background: url(redes2.jpg) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.field{
+	margin-top:1em;
+}
+
+.form-control{
+	border: none;
+	border-bottom: 1px solid;
+	outline: none;
+	width: 100%;
+	display: block;
+	padding: 10px 0px;
+	font-size: 1.2em;
+}
+.btn{
+	background-color: inherit;
+	border: none;
+	outline: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 1.2em;
+	padding: 10px 12px;
+}
+.be-red{
+	background-color: #E74C3C;
+}
+.white{
+	color: #ECF0F1;
+}
+.large-padding{
+	padding: 8px 5px;
+}
